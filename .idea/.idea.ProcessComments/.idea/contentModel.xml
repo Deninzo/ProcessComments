@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Denis\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Denis\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_ProcessComments.-1826782722.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Denis\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\Denis\RiderProjects\ProcessComments" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="ProcessComments" t="IncludeRecursive">
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="appsettings.json" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Contexts" t="Include">
+          <e p="DataStorageContext.cs" t="Include" />
+          <e p="TransactionsContext.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="Data.cs" t="Include" />
+          <e p="File.cs" t="Include" />
+          <e p="FileContent.cs" t="Include" />
+          <e p="Transaction.cs" t="Include" />
+          <e p="TransactionComment.cs" t="Include" />
+        </e>
+        <e p="nlog.config" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ProcessComments.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProcessComments.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="ProcessComments.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
