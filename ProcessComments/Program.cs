@@ -30,8 +30,8 @@ namespace ProcessComments
             var logger = LoggerFactory.Create(buidlder => buidlder.AddNLog())
                 .CreateLogger<Program>();
             
-            using var transactionsContext = new TransactionsContext(configuration.GetConnectionString("TransactionsContextProd"));
-            using var dataContext = new DataStorageContext(configuration.GetConnectionString("DataStorageContextProd"));
+            using var transactionsContext = new TransactionsContext(configuration.GetConnectionString("TransactionsContextLocal"));
+            using var dataContext = new DataStorageContext(configuration.GetConnectionString("DataStorageContextLocal"));
 
             var transactionsCount = transactionsContext.Transactions
                 .Count(t => t.Code == 3
